@@ -10,6 +10,7 @@ span {
 }
 
 div {
+  background: url(../img/sunset.jpg) 0 0 no-repeat;
   font-size: 30px;
 }
 
@@ -21,4 +22,15 @@ div {
   div {
     font-size: 20px;
   }
+}
+@supports (-webkit-appearance:none){
+div{background:url(../img/sunset.webp) 0 0 no-repeat}
+}
+
+ @media (max-width: 767px){
+
+@supports (-webkit-appearance:none){
+
+}
+
 }
